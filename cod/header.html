@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Radio GLUD es la emisora online del Grupo de trabajo GNU/Linux de la Universidad Distrital ( GLUD )" />
+    <meta name="keywords" content="Radio,GLUD,radioglud,Radio GLUD" />
+    <meta name="author" lang="en" content="Jorge Ulises Useche Cuellar" />
+    <meta property="og:title" content="Radio GLUD" />
+    <meta property="og:description" content="Emisora online del Grupo GNU/Linux Universidad Distirtal" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://radio.glud.org" />
+    <meta property="og:image" content="http://radio.glud.org/img/header.png" />
+    <meta property="og:site_name" content="Radio GLUD libertad para tus oídos" />
+    <link href="<?php echo _("img/")?>style.css" rel="stylesheet" />
+    <link rel="image_src" href="http://radio.glud.org/img/header.png" />
+    <link href="<?php echo _("img/")?>/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="<?php echo _("jme/")?>/css/player-controls.css" /> 
+    <link class="ui-theme" rel="stylesheet" href="<?php echo _("jme/")?>css/jquery-ui.css"/> 
+    <!--jQuery-->
+    <script src="<?php echo _("js/")?>jquery-1.6.2.min.js"></script> 
+        <script src="<?php echo _("js/")?>jquery.tools.min.js"></script>
+    <script src="<?php echo _("js/")?>jquery-ui-1.8.16.custom.min.js"></script>
+    <title>Radio GLUD</title>
+
+    <script>
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26472740-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script>
+      function mainmenu(){
+      // Oculto los submenus
+      $(" #nav ul ").css({display: "none"});
+      // Defino que submenus deben estar visibles cuando se pasa el mouse por encima
+      $(" #nav li").hover(function(){
+        $(this).find('ul:first:hidden').css({visibility: "visible",display: "none"}).slideDown(400);
+        },function(){
+          $(this).find('ul:first').slideUp(400);
+        });
+      }
+      $(document).ready(function(){
+        mainmenu();
+      });
+    </script>
+   </head>
+<body id="global">
+<h5></h5>
+<header>
+  <div id="menu">
+    <ul id="nav">
+    <li><a class="img" href="index.php" title="Home"><img  height="20" width="20"  src="<?php echo _("img/")?>img/home.png" alt="Página de Inicio" /></a></li>
+    <li><a href="<?php echo _("contenidos/")?>" title="<?php echo _("Más Contenidos")?>"><img height="10" width="10" src="<?php echo _("img/")?>img/plus.png" alt="Contenidos de Radio GLUD" /> <?php echo _("CONTENIDOS")?></a>
+      <ul class="submenu">
+        <li><a href="<?php echo _("contenidos/")?>noticias" title="<?php echo _("Noticias en Radio GLUD")?>"><?php echo _("Noticias")?></a></li>
+        <li><a href="<?php echo _("contenidos/")?>wiki" title="<?php echo _("Wiki de streaming y web")?>"><?php echo _("Wiki")?></a></li>
+        <li><a href="cht.php" title="<?php echo _("Chat IRC del GLUD")?>"><?php echo _("Chat")?></a></li>
+        <li><a href="<?php echo _("contenidos/")?>" title="<?php echo _("Otros contenidos del sitio")?>"><?php echo _("Aún más - >>")?></a>
+          <ul class="subsubmenu">
+            <li><a href="<?php echo _("contenidos/")?>fotografias" title="<?php echo _("Fotografías de los Integrantes")?>"><?php echo _("Fotografías")?></a></li>
+            <li><a href="<?php echo _("contenidos/")?>videos" title="<?php echo _("Mira algunos vídeos Libres")?>"><?php echo _("Vídeos")?></a></li>
+            <li><a href="<?php echo _("contenidos/")?>calendario" title="<?php echo _("Calendario de la programación de Radio GLUD")?>"><?php echo _("Calendario")?></a></li>
+            <li><a href="<?php echo _("contenidos/")?>encuestas" title="<?php echo _("Encuestas formuladas por los administradores de Radio GLUD")?>"><?php echo _("Encuestas")?></a></li>
+            <li><a href="<?php echo _("contenidos/")?>forum" title="<?php echo _("Foros de la Página")?>"><?php echo _("Foros")?></a></li>
+            <li><a href="<?php echo _("contenidos/")?>forum" title="<?php echo _("Microblog de Radio GLUD")?>"><?php echo _("Microblog")?></a></li>
+            <li><a href="files" title="<?php echo _("Archivos de Radio GLUD")?>"><?php echo _("Archivos de RG")?></a></li>
+          </ul>
+        </li>
+       </ul>
+    </li>
+    <li><a href="members.php"><?php echo _("Nosotros")?></a>
+      <ul class="submenu">
+        <li><a href="members.php"><?php echo _("Integrantes")?></a></li>
+        <li><a href="contact.php"><?php echo _("Contáctanos")?></a></li>
+      </ul>
+    </li>
+    <li><a href="#" title="<?php echo _("Idioma del Sitio")?>"><?php echo _("Idioma")?></a>
+      <ul class="submenu">
+        <li><a href="<?php echo _("index.php")?>" title="<?php echo _("Sitio en Español")?>"><?php echo _("Español")?></a></li>
+        <li><a href="t/en_US" title="<?php echo _("Sitio en Ingles")?>"><?php echo _("Ingles")?></a></li>
+      </ul>
+    </li>
+    <li><a class="img" target="_blank" href="http://www.facebook.com/RadioGLUD" title="Facebook"><img  height="20" width="20" src="<?php echo _("img/")?>img/facebook.png" alt="Página de Facebook de Radio GLUD" /></a></li>
+    <li><a class="img" target="_blank" href="http://www.facebook.com/groups/radioglud" title="Facebook group"><img  height="20" width="20"  src="<?php echo _("img/")?>img/fb-group.png" alt="Grupo de Facebook" /></a></li>
+    <li><a class="img" target="_blank" href="http://twitter.com/radioglud" title="Twitter"><img  height="20" width="20"  src="<?php echo _("img/")?>img/twitter.png" alt="Twitter de Radio GLUD" /></a></li>
+    <li><a class="img" target="_blank" href="http://www.youtube.com/user/radioglud/videos" title="Youtube"><img  height="20" width="20"  src="<?php echo _("img/")?>img/youtube.png" alt="Canal de Youtube en Radio GLUD" /></a></li>
+    <li><a href="about.php" title="<?php echo _("Acerca del Proyecto")?>"><?php echo _("Acerca de")?></a></li>
+  </ul>
+  </div>
+</header>
+<br />

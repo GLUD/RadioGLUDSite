@@ -1,0 +1,287 @@
+    <!-- you only need slider & progressbar widget from jquery ui (jquery.ui.core, jquery.ui.widget, jquery.ui.mouse, jquery.ui.slider, jquery.ui.progressbar) --> 
+    <script src="<?php echo _("jme/")?>mm.full.min.js"></script> 
+  
+    <script>
+      $('html').addClass('js-on');
+      $(function(){
+        //initialize jmeControl  458640227483089
+        $('div.media-player').jmeControl();
+      });
+      
+    </script>
+    <!--Tooltips-->
+        <script>
+      $(document).ready(function() {
+        $(".logoflotante a[title]").tooltip2({offset: [-100, 0], delay: 50});
+      });
+            $(document).ready(function() {
+        $(".flotante a[title]").tooltip();
+      });
+    </script>
+    <script src="<?php echo _("jme/")?>utils/a11y-slider.ext.js"></script>
+    <script class="jwPlayer" type="application/swf" src="<?php echo _("jme/")?>packages/player.swf"></script>
+    <script src="<?php echo _("jme/")?>packages/mm.full.min.js"></script>
+    <script src="<?php echo _("jme/")?>plugins/playlist.js"></script>
+    <script class="jme-jwPlayer" type="application/swf" src="<?php echo _("jme/")?>packages/jmefs.swf"></script>
+    <script src="<?php echo _("jme/")?>plugins/fullwindow.js"></script>
+    <script src="<?php echo _("jme/")?>utils/useractivity.js"></script>
+  <!--jQuery for slide-->
+  <script src="<?php echo _("js/")?>slideshow.js"></script>
+  <script>
+    $(function() {
+      $(".slideshow").slideshow({
+        autoplay: 'enable',//option:enable,disable
+        slideshow_width: '760',//slideshow window width
+        slideshow_height: '215',//slideshow window height
+        thumbnail_width: '25',//thumbnail width
+        time_Interval: '6000',//Milliseconds
+        directory: '<?php echo _("img/")?>slides/',// flash-on.gif and flashtext-bg.jpg directory
+        slidebottom_hpadding: '755'//padding right of slidebottom
+      });
+    });
+  </script>
+
+  <!--jQuery for buttonvdidntwork-->
+    
+  <script>
+  // increase the default animation speed to exaggerate the effect
+  $.fx.speeds._default = 1000;
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: "blind",
+      hide: "explode"
+    });
+
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+      return false;
+    });
+  });
+  </script>  
+<table><tr>
+  <td id="logoradioglud">
+    <a href="../../contenidos/logo" title="<?php echo _("Click para ver el logo en tamaño completo")?>"><img src="<?php echo _("img/")?>header.png" alt="Logo Radio GLUD" style="width:199px;height:198px"/></a>
+    <br /><h2><?php echo _("Libertad para tus oídos")?></h2><h5><?php echo _("Versión 3.0")?></h5>
+  </td>
+  <td class="slideshow">
+    <ul class="slideimage">
+      <li><a href="#"><img src="<?php echo _("img/")?>slides/1.png" alt="Imagen1" class="slide" /></a></li>
+      <li><a href="#"><img src="<?php echo _("img/")?>slides/2.png" alt="Imagen2" class="slide" /></a></li>
+      <li><a href="#"><img src="<?php echo _("img/")?>slides/3.png" alt="Imagen3" class="slide" /></a></li>
+      <li><a href="#"><img src="<?php echo _("img/")?>slides/4.png" alt="Imagen4" class="slide" /></a></li>
+    <li><a href="#"><img src="<?php echo _("img/")?>slides/5.png" alt="Imagen5" class="slide" /></a></li>
+    </ul>
+  </td>
+  <td class="slideshow">
+    <ul class="slidebottom">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    </ul>
+  </td>
+</tr></table>  
+<br /><br />
+<section>
+  <table style="margin:auto;">
+      <tr>
+        <td style="vertical-align:top;">
+          <table style="width:500px;text-align:center;">
+            <tr>
+              <td>
+                <h2><?php echo _("Distribuciones Recomendadas")?></h2><br />
+                <table style="margin:auto;" class="logoflotante">
+                  <tr>
+                    <td class="number">
+                      #1<br /><a target="_blank" title="<?php echo _("Una distribución GNU/Linux lista para ser usada")?>." href="http://www.linuxmint.com/"><img class="logo" alt="LinuxMint" src="<?php echo _("img/")?>logos/linuxmint.png" /></a>
+                    </td>
+                    <td class="number">
+                      #2<br /><a target="_blank" title="<?php echo _("El Sistema Operativo usado cada día por 20 millones de personas en el mundo")?>." href="http://www.ubuntu.com/"><img class="logo" alt="Ubuntu" src="<?php echo _("img/")?>logos/ubuntu.png" /></a>
+                    </td>
+                    <td class="number">
+                      #3<br /><a target="_blank" title="<?php echo _("Productividad, innovación y elegancia, lista para cualquier profesional")?>." href="http://fedoraproject.org/es/"><img class="logo" alt="Fedora" src="<?php echo _("img/")?>logos/fedora.png" /></a>
+                    </td>
+                    <td class="number">
+                      #4<br /><a target="_blank" title="<?php echo _("Lleva tu experiencia linux a un nivel más gráfico")?>." href="http://www.opensuse.org/es/"><img class="logo" alt="OpenSUSE" src="<?php echo _("img/")?>logos/opensuse.png"  /></a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="number">
+                      #5<br /><a target="_blank" title="<?php echo _("Filosofía libre en su máxima expresion, con muchas opciones y gran estabilidad")?>." href="http://www.debian.org/index.es.html"><img class="logo"  alt="Debian" src="<?php echo _("img/")?>logos/debian.png" /></a>
+                    </td>
+                    <td class="number">
+                      #6<br /><a target="_blank" title="<?php echo _("Para usuarios que quieren tener todo su sistema bajo control")?>." href="http://www.archlinux-es.org/"><img class="logo"  alt="Arch Linux" src="<?php echo _("img/")?>logos/arch.png" /></a>
+                    </td>
+                    <td class="number">
+                      #7<br /><a target="_blank"  title="<?php echo _("Sistema operativo linux basado en las fuentes libres de Red Hat")?>." href="http://www.centos.org/"><img class="logo" alt="CentOS" src="<?php echo _("img/")?>logos/centos.png" /></a>
+                    </td>
+                    <td class="number">
+                      #8<br /><a target="_blank" title="<?php echo _("La nueva generación en experiencia de usuario e innovación")?>." href="http://www.mandriva.com/es/"><img class="logo" alt="Mandriva" src="<?php echo _("img/")?>logos/mandriva.png" /></a>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="number">
+                      #9<br /><a target="_blank" title="<?php echo _("Estable y confiable con las últimas tecnologías de código abierto")?>." href="http://www.sabayon.org/"><img class="logo" alt="Sabayon" src="<?php echo _("img/")?>logos/sabayon.png" /></a>
+                    </td>
+                    <td class="number">
+                      #10<br /><a target="_blank" title="<?php echo _("Avanzado sistema operativo linux, fácil de usar y estable")?>." href="http://www.slackware.com/"><img class="logo"  alt="Slackware" src="<?php echo _("img/")?>logos/slackware.png" /></a>
+                    </td>
+                    <td class="number">
+                      #11<br /><a target="_blank" title="<?php echo _("Una distro para ser optimizada y configurada a tu medida")?>." href="http://www.gentoo.org/"><img class="logo"  alt="Gentoo" src="<?php echo _("img/")?>logos/gentoo.png" /></a>
+                    </td>
+                    <td class="number">
+                      #12<br /><a target="_blank" title="<?php echo _("Toda la experiencia, soporte y seguridad que tu empresa necesita")?>." href="http://www.latam.redhat.com/"><img class="logo"  alt="RedHat" src="<?php echo _("img/")?>logos/redhat.png" /></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4><?php echo _("Posicionado de acuerdo a la popularidad en distrowatch.com")?></h4>
+                <a href="distros.php" title="<?php echo _("Click aquí para más recomendados")?>"><h2><?php echo _("Más distribuciones aquí")?>.</h2></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td style="vertical-align:top;">
+          <table style="width:500px;text-align:center;">
+            <tr>
+              <td>
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fradio.glud.org&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>  
+                <span  class='st_linkedin_hcount'></span><span  class='st_facebook_hcount'></span><span  class='st_twitter_hcount'></span><span  class='st_plusone_hcount'></span>        
+                <script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'2d0ccbe7-5f17-4fac-acea-ed8bed27eea5'});</script>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br /><table style="margin-left:160px;"><tr><td>
+                <section class="flotante" style="width:180px;padding-right:28px">
+                  <a href="#" title="<?php echo _("El Indicador será de color gris cuando no haya emisión")?>."><h2><?php echo _("Emisión de Audio")?> <img width="15" height="15" src="<?php echo _("img/")?>estadoaudio.php" alt="Indica el estado del streaming de audio" /></h2></a>
+                </section></td><td>
+                <div class="demo">
+                  <div id="dialog" title="Escucha la emisora en VLC">
+                    <p><?php echo _("Si no funciona debido al navegador que usas.. sigue este")?> <a href="../../contenidos/vlc" target="_blank" title="tutorial vlc">*Tutorial*</a> <?php echo _("para poder escucharlo en el reproductor vlc")?>.</p>
+                  </div>
+                  <button id="opener"><?php echo _("No Funciona?")?></button>
+                </div><!-- End demo --></td></tr></table>
+                <div class="media-player">
+                  <span class="media-label">audioplayer <span class="media-name"></span></span>
+                  <div class="player-errors ui-state-error">
+                    Turn on your JavaScript
+                  </div>
+                  <audio>
+                  </audio>
+                  <div class="media-controls">
+                    <a class="play-pause"><span class="ui-icon"> </span><span class="button-text">play / pause</span></a>
+                    <span class="current-time player-display">00:00</span>
+                    <div class="timeline-slider">
+                      <span class="handle-label">play position</span>
+                      <div class="progressbar"></div>
+                    </div>
+                    <span class="duration player-display">00:00</span>
+                    <a class="mute-unmute"><span class="ui-icon"> </span><span class="button-text">mute / unmute</span></a>
+                    <div class="volume-slider"><span class="handle-label">volume control</span></div>
+                  </div>
+                   <div class="playlist loop autoplay-next active-playlist ui-corner-all ui-widget-header" style="text-align:left !important;">
+                    <ul>
+                      <li data-srces="http://glud.udistrital.edu.co:8000/radioglud.ogg">
+                        <?php echo _("Streaming de Baja Calidad")?>
+                      </li>
+                      <li data-srces="http://glud.udistrital.edu.co:8000/radiogludhd.ogg">
+            <?php echo _("Streaming de Alta Calidad")?>
+            </li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                  <section class="flotante" style="margin:auto;width:180px;">
+                    <a href="#" title="<?php echo _("En este momento se están transmitiendo programas exporadicamente, dirigete al calendario que está en el menú + Contenidos para ver la programación")?>."><h2><?php echo _("Programas Grabados")?></h2></a>    
+                  </section>    
+                  <br />
+                <div class="media-player">
+                  <span class="media-label">audioplayer <span class="media-name"></span></span>
+                  <div class="player-errors ui-state-error">
+                    Turn on your JavaScript
+                  </div>
+                  <audio></audio>                  
+                  <div class="media-controls">
+                    <a class="play-pause"><span class="ui-icon"> </span><span class="button-text">play / pause</span></a>
+                    <span class="current-time player-display">00:00</span>
+                    <div class="timeline-slider">
+                      <span class="handle-label">play position</span>
+                      <div class="progressbar"></div>
+                    </div>
+                    <span class="duration player-display">00:00</span>
+                    <a class="mute-unmute"><span class="ui-icon"> </span><span class="button-text">mute / unmute</span></a>
+                    <div class="volume-slider"><span class="handle-label">volume control</span></div>
+                  </div>
+                  
+                  <div class="playlist autoplay-next" style="text-align:left !important;">
+                    <ul>
+                      <li data-srces="http://radio.glud.org/files/programas/Saul%20Araque%20-%20Hablando%20sobre%20la%20ley%20lleras.ogg">
+                        Saul Araque - Hablando sobre la ley lleras
+                      </li>
+                      <li data-srces="http://radio.glud.org/files/programas/Fernando%20Pineda%20-%20Latex%20en%20la%20vida%20cotidiana.ogg">
+                        Fernando Pineda - Latex en la vida cotidiana
+                      </li>
+                      <li data-srces="http://radio.glud.org/files/programas/freestyleando-2012-05-16-parte1.ogg">
+                        Freestyleando parte 1
+                      </li>
+                      <li data-srces="http://radio.glud.org/files/programas/freestyleando-2012-05-16-parte2.ogg">
+                        Freestyleando parte 2
+                      </li>
+                      <li data-srces="http://radio.glud.org/files/programas/los_piratas-1-2012-05-18-parte1.ogg">
+                        Los piratas parte 1
+                      </li>
+                      <li data-srces="http://radio.glud.org/files/programas/los_piratas-1-2012-05-18-parte2.ogg">
+                        Los piratas parte 2
+                      </li>
+                    </ul>
+                  </div>
+                </div>                
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                <section class="subtitle">
+                <h1><?php echo _("Otros Servicios")?></h1>
+                </section>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br />
+                <br />
+                <a href="videostreaming.php" title="<?php echo _("Ingresa para ver el streaming de Vídeo")?>"><h2><?php echo _("Emisión de Vídeo")?> <img width="15" height="15" src="<?php echo _("img/")?>estadovideo.php" alt="Indica el estado del streaming de vídeo" /></h2></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table>
+</section>
+
+<br />
+<br />
+<br />
+<br />
+
+<footer class="centrado">
+  <section id="bottom-final">
+    <h1><br /><?php echo _("Un proyecto del Grupo GNU / Linux de la Universidad Distrital FJC")?></h1>
+    <a target="_blank" href="http://www.udistrital.edu.co"><img width="80" height="100" src="<?php echo _("img/")?>EscudoUD.gif" alt="Escudo Universidad Distrital F J C" /></a>
+    <br />
+    <br />
+  <h4><?php echo _("Desarrollado por: Jorge Ulises Useche Cuellar, Saul Andres Araque Triana  &amp; Jinny Daniel Salcedo Pulgarín")?><br /><br /><?php echo _("Estudiantes de Ingeniería Electrónica")?></h4>
+  </section>
+</footer>
+<br />

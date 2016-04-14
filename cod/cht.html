@@ -1,0 +1,27 @@
+<br /><br />
+<div style="margin-left: 187px;">
+<a class="subtitle" id="boton" href='javascript:funcion1();'><?php echo _("Click para cambiar entre servicios de chat")?></a>
+</div>
+<br /><br />
+<center>
+<iframe id="completo" style="display:block;" src="http://140.211.167.103/?channels=glud&uio=Mj10cnVlJjQ9dHJ1ZSY5PXRydWUmMTA9dHJ1ZSYxMT0yNDYmMTI9dHJ1ZQa2" width="647" height="400"></iframe>
+<embed id="rapido" style="display:none;" src="http://www.xatech.com/web_gear/chat/chat.swf" quality="high" width="540" height="405" name="chat" FlashVars="id=157025300" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://xat.com/update_flash.shtml" /><br />
+</center>
+<h3><?php echo _("Nota: El primer chat es para acceder al canal IRC oficial del GLUD y el segundo es el chat de Radio GLUD, es más entretenido y guarda sus mensajes")?>.</h3> 
+<br />
+</center>
+
+<script type="text/javascript">	
+function funcion1()
+{
+	document.getElementById("completo").style.display = "none";
+	document.getElementById("rapido").style.display = "block";
+	document.getElementById("boton").href = 'javascript:funcion2()';
+}
+function funcion2()
+{
+	document.getElementById("completo").style.display = "block";
+	document.getElementById("rapido").style.display = "none";
+	document.getElementById("boton").href = 'javascript:funcion1()';
+}
+</script>

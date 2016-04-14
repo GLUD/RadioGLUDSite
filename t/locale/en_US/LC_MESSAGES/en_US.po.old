@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Radio GLUD v 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-15 17:13-0500\n"
+"PO-Revision-Date: 2012-05-15 17:14-0500\n"
+"Last-Translator: Jorge Ulises Useche Cuellar <jorgenator2@yahoo.es>\n"
+"Language-Team: Radio GLUD team <radioglud@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../../../../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: cod\n"
+
+#: cod/cht.html:3
+msgid "Click para cambiar entre servicios de chat"
+msgstr "Click to change into between services"
+
+#: cod/cht.html:10
+msgid "Nota: El primer chat es para acceder al canal IRC oficial del GLUD y el segundo es el chat de Radio GLUD, es más entretenido y guarda sus mensajes"
+msgstr "Note: The first chat is to access to official IRC channel of GLUD and the second is the chat of Radio GLUD, is more entertainment and keep your messages"
+
+#: cod/footer.html:8
+msgid "El código de RADIO.GLUD.ORG está validado por el servicio w3c en su"
+msgstr "The code of RADIO.GLUD.ORG was validate for w3c service in the"
+
+#: cod/footer.html:8
+msgid "Prueba  HTML5"
+msgstr "HTML5 probe"
+
+#: cod/footer.html:14
+msgid "RADIO.GLUD.ORG está desarrollado en base al tema Piano Black by Mono-Lab extraído de"
+msgstr "RADIO.GLUD.ORG was developed in base to Piano Black theme by Mono-Lab extract to"
+
+#: cod/footer.html:14
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: cod/footer.html:20
+msgid "El contenido de RADIO.GLUD.ORG está licenciado bajo"
+msgstr "The content of RADIO.GLUD.ORG was licensed under"
+
+#: cod/footer.html:20
+msgid "Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Unported"
+msgstr "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported"
+
+#: cod/header.html:60
+msgid "Más Contenidos"
+msgstr "More Contents"
+
+#: cod/header.html:60
+msgid "CONTENIDOS"
+msgstr "CONTENTS"
+
+#: cod/header.html:62
+msgid "Noticias en Radio GLUD"
+msgstr "News in Radio GLUD"
+
+#: cod/header.html:62
+msgid "Noticias"
+msgstr "News"
+
+#: cod/header.html:63
+msgid "Foros de la Página"
+msgstr "Forum of Page"
+
+#: cod/header.html:63
+msgid "Foros"
+msgstr "Forums"
+
+#: cod/header.html:64
+msgid "Chat IRC del GLUD"
+msgstr "IRC chat of GLUD"
+
+#: cod/header.html:64
+msgid "Chat"
+msgstr "Chat"
+
+#: cod/header.html:65
+msgid "Wiki de streaming y web"
+msgstr "Wiki of streaming and web"
+
+#: cod/header.html:65
+msgid "Wiki"
+msgstr "Wiki"
+
+#: cod/header.html:66
+msgid "Fotografías de los Integrantes"
+msgstr "Photography of Members"
+
+#: cod/header.html:66
+msgid "Fotografías"
+msgstr "Photographs"
+
+#: cod/header.html:67
+msgid "Mira algunos vídeos Libres"
+msgstr "Look some free videos"
+
+#: cod/header.html:67
+msgid "Vídeos"
+msgstr "Videos"
+
+#: cod/header.html:68
+msgid "Calendario de la programación de Radio GLUD"
+msgstr "Calendar of Radio GLUD programs"
+
+#: cod/header.html:68
+msgid "Calendario"
+msgstr "Calendar"
+
+#: cod/header.html:69
+msgid "Encuestas formuladas por los administradores de Radio GLUD"
+msgstr "Surveys formulated for administrators of Radio GLUD"
+
+#: cod/header.html:69
+msgid "Encuestas"
+msgstr "Surveys"
+
+#: cod/header.html:72
+msgid "Nosotros"
+msgstr "About Us"
+
+#: cod/header.html:74
+msgid "Integrantes"
+msgstr "Members"
+
+#: cod/header.html:75
+msgid "Contáctanos"
+msgstr "Contact Us"
+
+#: cod/header.html:78
+msgid "Idioma del Sitio"
+msgstr "Site language"
+
+#: cod/header.html:78
+msgid "Idioma"
+msgstr "Language"
+
+#: cod/header.html:80
+msgid "Sitio en Español"
+msgstr "Site in Spanish"
+
+#: cod/header.html:80
+msgid "Español"
+msgstr "Spanish"
+
+#: cod/header.html:81
+msgid "Sitio en Ingles"
+msgstr "Site in english"
+
+#: cod/header.html:81
+msgid "Ingles"
+msgstr "English"
+
+#: cod/header.html:87
+msgid "Acerca del Proyecto"
+msgstr "About the Project"
+
+#: cod/header.html:87
+msgid "Acerca de"
+msgstr "About"
+
+#: cod/acercade.html:3
+msgid "Objetivos del proyecto"
+msgstr "Objectives of project"
+
+#: cod/acercade.html:4
+msgid "Comunicar a cualquiera sobre temas de importancia y compatibles con la filosofía libre"
+msgstr "Communicate to someone about thematics of importance and compatibles with free philosophy"
+
+#: cod/acercade.html:5
+msgid "Hacer conocer el grupo GLUD a toda la comunidad en general"
+msgstr "Know the GLUD to the general community"
+
+#: cod/acercade.html:6
+msgid "Transmitir y producir contenidos que difundan y apoyen la cultura libre"
+msgstr "Produce and transmit contents that spread and support the free culture"
+
+#: cod/acercade.html:7
+msgid "Generar en el oyente la conciencia de escuchar música libre"
+msgstr "Generate in the listener sensitize of listening to free music"
+
+#: cod/acercade.html:9
+msgid "Tecnologías Usadas"
+msgstr "Used technologies "
+
+#: cod/acercade.html:10
+msgid "Todos los logos y demás imagenes han sido creados y/o vectorizados con INKSCAPE, también se ha modelado en 3D con BLENDER, figuras como el kokopelli (logo del GLUD) escuchando música; Los retoques para las imágenes como efectos y escalamientos han sido realizados en la herramienta GIMP, el código de la página está hecho con el lenguaje HTML5 y CSS3 escrito en el IDE GEANY 2.0. Se ha usado el framework jQuery para realizar los menús (menus), presentaciones (slides) y burbujas de información (tooltips); Para la traducción se ha usado la función gettext de PHP5. Para los contenidos, se utiliza el CMS DRUPAL, agradecemos a la comunidad de Drupal en español por brindarnos su conocimiento para encontrar módulos que sirvan a nuestros propósitos"
+msgstr "Every logos and others pictures had been created and/or vectorized with INKSCAPE, also we have done 3D modeling with BLENDER, figures as kokopelli (GLUD's logo) listening to music; The retouch to the pictures like effects and scaling have been done with GIMP, the code of the page is done with the HTML5 language and CSS3 wrote with GEANY IDE 2.0. Has been used the jQuery framework to make the menus, slides and tooltips; For the translation has been used the gettext function  of PHP5. For the contents, is use DRUPAL CMS, we have to thank to all the Spanish Drupal community for gave us their support and knowledge to find modules that fix our purposes"
+
+#: cod/acercade.html:12
+msgid "Significado del logo"
+msgstr "Logo meaning"
+
+#: cod/acercade.html:13
+msgid "La lagartija es un gecko, este animalito simboliza la capacidad de resurgir y a su vez simboliza buena suerte (en especial para nuestro proyecto), se ha asociado muy de cerca a kokopelli (logo del GLUD) por ser un animal que ama el agua y en muchas de las imagenes, el gecko acompaña a kokopelli cuando este toca su flauta (escuchando musica libre!)"
+msgstr "The lizard is a gecko, this little animal symbolizes the capacity to resurge and the same time symbolizes good luck (specially for our project), he has been related close to kokopelli (GLUD's logo) being an animal who loves water and in a lot of pictures, the gecko partner kokopelli when he plays his flute (listening to free music!)"
+
+#: cod/acercade.html:15
+msgid "Nota: El sitio es compatible con los navegadores: Mozilla Firefox 11.x, Google Chrome 18.x, Opera 11.x  y Safari 5.x, Optimizado para Mozilla Firefox y Google Chrome para una resolución de 1024x720, Ultima Modificación: 9/ABR/2012"
+msgstr "Note: This site is compatible with the following browsers: Mozilla Firefox 11.x, Google Chrome 18.x, Opera 11.x  and Safari 5.x, Optimized for Mozilla Firefox and Google Chrome with a suitable resolution of 1024x720, Last modification: 9/APR/2012"
+
+#: cod/acercade.html:16
+msgid "Inicio del proyecto: Septiembre de 2011"
+msgstr "Begin of project: September 2011"
+
+#: cod/videostreaming.html:2
+msgid "Vídeo por livestream"
+msgstr "Livestream Video"
+
+#: cod/videostreaming.html:6
+msgid "Estado de la emisión"
+msgstr "State of emition"
+
+#: cod/videostreaming.html:14
+msgid "Nota: Se avisará por el calendario las fechas de emisión de vídeo."
+msgstr "Note: We will announce by the calendar the dates of video streaming."
+
+#: cod/distrosrecomendadas.html:3
+msgid "Otras distribuciónes recomendadas"
+msgstr "Others recommend distributions"
+
+#: cod/distrosrecomendadas.html:5
+msgid "No se de que se trata"
+msgstr "I don't know what it's all about"
+
+#: cod/distrosrecomendadas.html:8
+msgid "Basada en mandriva pero con menos intereses comerciales"
+msgstr "Based on Mandriva but with less commercials interests"
+
+#: cod/integrantes.html:3
+msgid "Integrantes del proyecto Radio GLUD del grupo GNU/Linux de la Universidad Distrital FJC"
+msgstr "Members of Radio GLUD project from GNU/Linux Group of Universidad Distrital FJC"
+
+#: cod/integrantes.html:5
+msgid "Estudiante de Ingeniería Electrónica, Interesado en el desarrollo de tecnologías libres que reduzcan la brecha social que existe hoy en día en Colombia al ser un país subdesarrollado. Viniendo de otro sector de Colombia encontró una simpatía inmediata al conocer el software libre e invierte su tiempo conociendo y desarrollando para la comunidad de software libre que le ha dado tanto"
+msgstr "Electronic Engineering student, He is interesting in the development of free technologies that reduced the social gap that actually exists in Colombia because this country is underdeveloped. Coming from another place of Colombia he found immediately sympathy  with the free software and he spends his time knowing and developing for the free software community"
+
+#: cod/integrantes.html:7
+msgid "Estudiante de Ingeniería Electrónica, Simpatizante de las tecnologías libres y emprendedor de ideas que ayuden a su carrera, deseoso de aprender mucho sobre este mundo que haga que su carrera no solo valla enfocada al hardware sino también al software  como solución de problemáticas"
+msgstr "Electronic Engineering student, Follower of free technologies and entrepreneur of ideas that help his career, anxious of know a lot about this world that makes that his career doesn't go focused to hardware but also to software for problem-solving"
+
+#: cod/content.html:65
+msgid "Click para ver el logo en tamaño completo"
+msgstr "Click to view the logo in complete size"
+
+#: cod/content.html:66
+msgid "Libertad para tus oídos"
+msgstr "Freedom for your ears"
+
+#: cod/content.html:66
+msgid "Versión 3.0"
+msgstr "Version 3.0"
+
+#: cod/content.html:95
+msgid "Distribuciones Recomendadas"
+msgstr "Recommended distributions"
+
+#: cod/content.html:99
+msgid "Una distribución GNU/Linux lista para ser usada"
+msgstr "A GNU/Linux distribution ready to be use"
+
+#: cod/content.html:102
+msgid "El Sistema Operativo usado cada día por 20 millones de personas en el mundo"
+msgstr "The Operative System use every day by 20 millions of people in the world"
+
+#: cod/content.html:105
+msgid "Productividad, innovación y elegancia, lista para cualquier profesional"
+msgstr "Productivity, innovation and elegance, ready for each professional"
+
+#: cod/content.html:108
+msgid "Lleva tu experiencia linux a un nivel más gráfico"
+msgstr "Take your linux experience into a mayor graphic level"
+
+#: cod/content.html:113
+msgid "Filosofía libre en su máxima expresion, con muchas opciones y gran estabilidad"
+msgstr "Free  philosophy in his best expression, with a lot of options and great stability"
+
+#: cod/content.html:116
+msgid "Para usuarios que quieren tener todo su sistema bajo control"
+msgstr "For users that want have all their system under control"
+
+#: cod/content.html:119
+msgid "Sistema operativo linux basado en las fuentes libres de Red Hat"
+msgstr "Linux operative system based on free sources of Red Hat"
+
+#: cod/content.html:122
+msgid "La nueva generación en experiencia de usuario e innovación"
+msgstr "The new generation on user experience and innovation"
+
+#: cod/content.html:127
+msgid "Estable y confiable con las últimas tecnologías de código abierto"
+msgstr "Stable and dependable with the last technologies of open source"
+
+#: cod/content.html:130
+msgid "Avanzado sistema operativo linux, fácil de usar y estable"
+msgstr "Advanced Linux operative system, easy to use and stable"
+
+#: cod/content.html:133
+msgid "Una distro para ser optimizada y configurada a tu medida"
+msgstr "A distribution that can be optimized and configured to your needs"
+
+#: cod/content.html:136
+msgid "Toda la experiencia, soporte y seguridad que tu empresa necesita"
+msgstr "All the experience, support and security that your enterprise needs"
+
+#: cod/content.html:144
+msgid "Posicionado de acuerdo a la popularidad en distrowatch.com"
+msgstr "Sort by popularity on distrowatch.com"
+
+#: cod/content.html:145
+msgid "Click aquí para más recomendados"
+msgstr "Click here for more recommendations"
+
+#: cod/content.html:145
+msgid "Más distribuciones aquí"
+msgstr "More distributions here"
+
+#: cod/content.html:163
+msgid "El Indicador será de color gris cuando no haya emisión"
+msgstr "The indicator will be on gray color when there isn't streaming"
+
+#: cod/content.html:163
+msgid "Emisión de Audio"
+msgstr "Audio Streaming"
+
+#: cod/content.html:167
+msgid "Si no funciona debido al navegador que usas.. sigue este"
+msgstr "If it doesn't work because of your browser follow this"
+
+#: cod/content.html:167
+msgid "para poder escucharlo en el reproductor vlc"
+msgstr "to listening in vlc player"
+
+#: cod/content.html:169
+msgid "No Funciona?"
+msgstr "Doesn't work?"
+
+#: cod/content.html:192
+msgid "Streaming de Baja Calidad"
+msgstr "Low quality Streaming"
+
+#: cod/content.html:195
+msgid "Streaming de Alta Calidad"
+msgstr "High quality Streaming"
+
+#: cod/content.html:207
+msgid "En este momento se están transmitiendo programas exporadicamente, dirigete al calendario que está en el menú + Contenidos para ver la programación"
+msgstr "In this moment we are streaming sporadically, go to the calendar that is in the menu + Contents to watch the schedule"
+
+#: cod/content.html:207
+msgid "Programas Grabados"
+msgstr "Recorded broadcast"
+
+#: cod/content.html:245
+msgid "Otros Servicios"
+msgstr "Other services"
+
+#: cod/content.html:253
+msgid "Ingresa para ver el streaming de Vídeo"
+msgstr "Join in to see the video streaming"
+
+#: cod/content.html:253
+msgid "Emisión de Vídeo"
+msgstr "Video Streaming"
+
+#: cod/content.html:269
+msgid "Un proyecto del Grupo GNU / Linux de la Universidad Distrital FJC"
+msgstr "A project of GNU/Linux Group of Universidad Distrital FJC"
+
+#: cod/content.html:273
+msgid "Desarrollado por: Jorge Ulises Useche Cuellar, Saul Andres Araque Triana  &amp; Jinny Daniel Salcedo Pulgarín"
+msgstr "Developed by: Jorge Ulises Useche Cuellar, Saul Andres Araque Triana  &amp; Jinny Daniel Salcedo Pulgarín"
+
+#: cod/content.html:273
+msgid "Estudiantes de Ingeniería Electrónica"
+msgstr "Electronic Engineering students"
+
+#: cod/nocontenidos.html:4
+msgid "La sección de contenidos no está disponible en su idioma actualmente, puede visitarla en su versión en español"
+msgstr "This section is not available actually in your language, but you can visit it in its Spanish version"
+
+#: cod/contactanos.html:3
+msgid "Contactanos"
+msgstr "Contact US"
+
+#: cod/contactanos.html:5
+#: cod/contactanos.html:9
+#: cod/contactanos.html:14
+msgid "Correo Electrónico"
+msgstr "E-mail"
+
+#: cod/contactanos.html:10
+msgid "Blog en GLUD"
+msgstr "GLUD blog"
+
+#: cod/contactanos.html:11
+msgid "Blog personal"
+msgstr "Personal blog"
+
+#~ msgid "English"
+#~ msgstr "Ingles"
